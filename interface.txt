@@ -605,6 +605,62 @@ Http Status - 500 (Internal Server Error)
 
 --------------------------------------
 
+boardWrite (댓글 작성)
+
+- URL : POST /api/v1/board/comment
+
+- Header : Name : Authorization, Value : Bearer {token}
+
+- request (요청)
+{
+    *boardNumber : int,
+    *content : string
+}
+
+- response (응답)
+
+성공
+
+Http Status - 200 (OK)
+{
+    code : "SU",
+    message : "Success."
+}
+
+실패
+
+- 존재하지 않는 게시물
+
+Http Status - 400 (Bad Request)
+{
+    code : "NB",
+    message : "No Existed Board."
+}
+
+- 존재하지 않는 유저
+
+Http Status - 400 (Bad Request)
+{
+    code : "NU",
+    message : "No Existed User."
+}
+
+- 권한 없음
+Http Status - 403 (Forbidden)
+{
+    code : "NP",
+    message : "No Permission."
+}
+
+- 데이터베이스 에러
+Http Status - 500 (Internal Server Error)
+{
+    code : "DE",
+    message : "Database Error."
+}
+
+--------------------------------------
+
 getUser (유저 정보 조회)
 
 - URL : GET /api/v1/user/{email}

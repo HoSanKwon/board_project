@@ -6,5 +6,4 @@ export type {
     BoardListItem,
     CommentListItem,
     FavoriteListItem
-    
 }

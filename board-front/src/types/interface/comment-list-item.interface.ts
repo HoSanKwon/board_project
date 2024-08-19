@@ -1,5 +1,5 @@
 export default interface CommentListItem {
-    naickneme: string;
+    nickname: string;
     profileImage: string | null;
     writeDatetime: string;
     content: string;

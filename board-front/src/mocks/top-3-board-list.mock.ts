@@ -1,6 +1,6 @@
 import { BoardListItem } from 'types/interface';
 
-const latestBoardListMock: BoardListItem[] = [
+const top3BoardListMock: BoardListItem[] = [
     {
         boardNumber: 1,
         title: "오늘 점심 뭐 먹지.. 일반식 먹을까 식단 할까?",
@@ -37,42 +37,6 @@ const latestBoardListMock: BoardListItem[] = [
         writerNickname: "안녕하세요나는호산",
         writerProfileImage: null
     },
-    {
-        boardNumber: 1,
-        title: "오늘 점심 뭐 먹지.. 일반식 먹을까 식단 할까?",
-        content: "음.. 푸아그라, 북경오리, 탕수육, 제육볶음, 샐러드, 햄버거, 피자, 닭가슴살이나 먹자..!",
-        boardTitleImage: null,
-        favoriteCount: 0,
-        commentCount: 0,
-        viewCount: 0,
-        writeDatetime: "2024.08.15 02:13:42",
-        writerNickname: "안녕하세요나는호산",
-        writerProfileImage: null
-    },
-    {
-        boardNumber: 1,
-        title: "오늘 점심 뭐 먹지.. 일반식 먹을까 식단 할까?",
-        content: "음.. 푸아그라, 북경오리, 탕수육, 제육볶음, 샐러드, 햄버거, 피자, 닭가슴살이나 먹자..!",
-        boardTitleImage: null,
-        favoriteCount: 0,
-        commentCount: 0,
-        viewCount: 0,
-        writeDatetime: "2024.08.15 02:13:42",
-        writerNickname: "안녕하세요나는호산",
-        writerProfileImage: null
-    },
-    {
-        boardNumber: 1,
-        title: "오늘 점심 뭐 먹지.. 일반식 먹을까 식단 할까?",
-        content: "음.. 푸아그라, 북경오리, 탕수육, 제육볶음, 샐러드, 햄버거, 피자, 닭가슴살이나 먹자..!",
-        boardTitleImage: null,
-        favoriteCount: 0,
-        commentCount: 0,
-        viewCount: 0,
-        writeDatetime: "2024.08.15 02:13:42",
-        writerNickname: "안녕하세요나는호산",
-        writerProfileImage: null
-    },
 ]
 
-export default latestBoardListMock;
+export default top3BoardListMock;
